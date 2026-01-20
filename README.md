@@ -15,7 +15,31 @@ A web application for managing golf course tee times and player lobbies. Browse 
 
 ## Tech Stack
 
+**Frontend:**
+
 - React + Vite
 - React Router
-- FastAPI backend (Python)
+- Deployed on GitHub Pages
+
+**Backend:**
+
+- FastAPI (Python)
 - SQLite database
+
+## Local Development
+
+**Frontend:**
+
+```bash
+cd golf-lobby-frontend
+npm install
+npm run dev
+```
+
+**Backend:**
+
+```bash
+cd backend
+pip install fastapi uvicorn
+uvicorn server:app --reload --port 3003
+```
