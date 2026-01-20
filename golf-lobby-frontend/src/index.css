@@ -1,0 +1,182 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.macbook-pro {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  height: auto; 
+  padding: 64px 125px;
+  position: relative;
+  min-height: 100vh;
+  align-items: center; 
+  overflow: hidden;
+}
+
+.macbook-pro .tea-connect {
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.macbook-pro .text-wrapper {
+  color: #000000;text-align: center;
+}
+
+.macbook-pro .div-wrapper {
+  align-items: center;
+}
+
+.macbook-pro .span {
+  color: #8f9633;
+}
+
+.macbook-pro .div {
+  background-image: url(./assets/goldcoverpic.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 318px;
+  position: relative;
+  width: 1262px;
+}
+
+.macbook-pro .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 382px;
+}
+
+.course-main-card {
+  border: 3px solid #000000;
+  border-color: #8f9633;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  height: 140px;
+  position: relative;
+  width: 630px;
+}
+
+.course-main-card-text {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400; 
+  height: 44px;
+  line-height: normal;
+  margin-left: 24px;
+  margin-top: 17px;
+}
+
+.course-main-card-location {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400; 
+  height: 27px;
+  line-height: normal;
+  margin-left: 24px;
+}
+
+.course-main-card-link {
+  margin-left: 24px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #8f9633;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.player-input {
+  max-width: 260px;
+  padding: 10px 12px;
+  margin-right: 10px;
+
+  background-color: #ffffff;
+  color: #111;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 14px;
+  outline: none;
+}
+
+.player-input::placeholder {
+  color: #999;
+}
+
+.player-input:focus {
+  border-color: #4f46e5; /* subtle blue */
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.app {
+  height: auto;
+  width: 100vw;
+  overflow: hidden;
+}
